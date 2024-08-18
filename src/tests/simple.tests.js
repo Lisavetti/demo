@@ -4,6 +4,8 @@ import DoctorsPage from '../po/pages/doctors.pages';
 const dashboarsPage = new DashboardPage();
 const doctorPage = new DoctorsPage();
 
+import pages from '../po';
+
 describe("Doctors page", () => {
     beforeEach(async () => {
         await dashboarsPage.open();

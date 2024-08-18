@@ -1,6 +1,7 @@
-import ListHeaderComponent from "../components/doctors/list-header.component";
-import AddDoctorComponent from "../components/doctors/add-doctor.component";
 import BasePage from "./base.pages";
+
+import { ListHeaderComponent, AddDoctorComponent } from '../../po/components/index.js';
+
 
 class DoctorsPage extends BasePage {
     constructor() {
